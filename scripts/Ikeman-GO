@@ -1,0 +1,12 @@
+cd
+clear
+echo "Ikeman-GO script started!"
+echo "Downloading the files, removing old files and installing needed dependencies..."
+sleep 2
+cd 
+sudo apt install -y git libgl1-mesa-dev xorg-dev libopenal1 libopenal-dev 
+hash -r
+git clone https://github.com/Windblade-GR01/Ikemen_GO.git
+cd ~/Ikemen_GO/build
+./get.sh
+./build_cmpt.sh
