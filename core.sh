@@ -45,7 +45,40 @@ else
     echo "Developer Mode Enabled! Branch = $repository_branch"
 fi
 
-echo "Welcome back to the main menu of the L4T Megascript, $USER. This isn't quite finished yet - we'll be ready eventually!"
+echo "Welcome to the main menu of L4T Megascript, $USER. This isn't quite finished yet though, but we will be ready eventually!"
+echo
+echo -e "\e[1;36m               //d                                              
+           +/ddddd                                              
+        //dddddddd                                              
+    -/dddddddddddd                                              
+    ohhhdddddddddd                                              
+    +hhhhhhhdddddd                                              
+    +hhhhhhhhhhddd                                              
+    ohhhhhhhhhhhhd                                              
+    yhhhhhhhhhhhhh                .-+++/ :                      
+    shhhhhhhhhhhhh          ooooo+/+sso++s                      
+    ohhhhhhhhhhhhh         oooo++//++++//+----------------.     
+    ohhhhhhhhhhhhh       -ossss++/:+++++++////////////////:     
+    ohhhhhhhhhhhhh       :sssss+++/+++++++++++////////////:     
+    ohhhhhhhhhhhhh      :sssssso--o++++oo+++++++----------.     
+    ohhhhhhhhhhhhh     :ssssss: -ooo++++++++++++                
+    ohhhhhhhhhhhhh    osssooo   oooooo++++++++++                
+    ohhhhhhhhhhhhy   sooooo+    ooooooss/+++++++                
+    ohhhhhhhhyyyss -ooooooo     oossyyyyy+++++++//::::-         
+    ohhhhhyyyyyyysooooooo-       hyyyyyyy++++++++////:-/        
+    ohhhyyyyyyyyyooooooo+//yyyyyyyyyyyyyy+++++++oo++::/.        
+    +yyyyyyyyyyyyoooossyyyyyyyyyyyyyyhhdd+++++++os+://.         
+    +yyyyyyyyyyyysyyyyyyyyyyyyyyyhhdddddd++++++++::/.           
+    +yyyyyyyyyyyyy////yyyyyyyyssyyddddddd+++++++/::             
+    +yyyyyyyyyyyyy:/hyssssssssssyydddddhd+++++++/:              
+    +yyyyyssssssssdhyyssssssssssyydhddmmm+++++++/               
+    +yyssssssssoosdhyyssssssssssydmmmmmmm+++++++.               
+    +yyssssoooooosdhyyssssssssssyNmmmmmmm+++++++                
+    -oooossoooooosdhyyssssssssss:/                              
+      ::soosssooosdhyysssssss:  MEGASCRIPT                      
+          :sssssssdhyysss::                                     
+             ::sssdhyy:-                                        
+                 :h/                                            \e[0m"
 echo
 echo "Enter a number from the choices below and then press ENTER to configure the specified program."
 #echo -e "\x1B[31mKeep in mind how much storage you have left on your SD card!\e[0m"
@@ -162,10 +195,15 @@ echo -e "\e[38;2;0;71;171mCobalt - Manager/Lead Dev/Benevolent Dictator\e[0m"
 echo -e "\e[38;2;$(shuf -i 0-255 -n 1);$(shuf -i 0-255 -n 1);$(shuf -i 0-255 -n 1)mLugsole - Contributor\e[0m"
 echo -e "\e[35mLang Kasempo - Contributor/Beta Tester\e[0m"
 echo -e "\e[32mGman - Contributor/Beta Tester\e[0m"
-echo -e "Fafabis: Contributor"
-echo -e "Quacka: Beta Tester"
-#echo "hey, if you're reading this, odds are you probably helped make the thing. you can add your name to the credits in your PRs!"
+echo -e "\e[33mFafabis: Contributor\e[0m"
+echo -e "\e[1;32mPancakers2001: Contributer/Beta Tester\e[0m"
+echo
+echo "Special Thanks:"
+echo
+echo -e "The developers of each game and program in L4T Megascript"
+echo -e "Everyone in the L4T Megascript discord who has helped beta test and share ideas with us"
 echo "the Switchroot L4T Ubuntu team (https://switchroot.org/) - making the actual OS you're running right now"
+#echo "hey, if you're reading this, odds are you probably helped make the thing. you can add your name to the credits in your PRs!"
 
 echo ""
 echo -e 'Thank you for using the L4T Megascript! Stop by our \e[36mDiscord\e[0m server at https://tinyurl.com/L4TScript for support.'
