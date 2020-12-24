@@ -45,7 +45,7 @@ else
     echo "Developer Mode Enabled! Branch = $repository_branch"
 fi
 
-echo "Welcome to the main menu of L4T Megascript, $USER. This isn't quite finished yet though, but we will be ready eventually!"
+echo "Welcome to the main menu of the L4T Megascript, $USER. This isn't quite finished yet though, but we will be ready eventually!"
 echo
 echo -e "\e[1;36m               //d                                              
            +/ddddd                                              
