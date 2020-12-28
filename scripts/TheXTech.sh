@@ -32,7 +32,7 @@ git submodule update
 git pull
 mkdir build
 cd build
-cmake -G Ninja -DCMAKE_BUILD_TYPE=Debug ..
+cmake -G Ninja -DCMAKE_BUILD_TYPE=Debug..
 echo
 echo -e "\e[31mThis will take a while, please wait, if it seems like it is stuck it is not so please have patience.\e[0m"
 echo
@@ -53,19 +53,8 @@ mv output TheXTech
 sudo mv TheXTech -t /usr/share 
 cd 
 sudo rm -r TheXTech
+svn export https://github.com/$repository_username/L4T-Megascript/trunk/assets/TheXTech
 cd TheXTech
-n () { date >> /home/me/Super Mario Bros X.desktop; cat >> /home/me/Super Mario Bros X.desktop; }
-cat > Super Mario Bros X.desktop << EOF
-[Desktop Entry]
-Type=Application
-Icon=/usr/share/TheXTech/TheXTech-Icon.png
-Name=Super Mario Bros X
-Exec=/usr/share/TheXTech/bin/thextech
-Path=/usr/share/TheXTech/lib
-Terminal=false
-Hidden=false
-Categories=Games
-EOF
 sudo mv "Super Mario Bros X.desktop" -t /usr/share/applications
 sudo mv TheXTech-Icon.png -t /usr/share/TheXTech 
 if [ ! -d ~/.PGE_Project/thextech/worlds ]; then
